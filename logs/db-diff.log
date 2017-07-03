@@ -1,0 +1,60 @@
+[2017-07-03 11:26:40.023][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on bogon with PID 69114 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-07-03 11:26:40.028][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-07-03 11:26:40.085][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 11:26:40 CST 2017]; root of context hierarchy
+[2017-07-03 11:26:40.792][INFO][TestInterfaceImpl][90][logId:] - class : com.littlersmall.example.TestInterfaceImpl, function name: fun
+in args: [], out args: null
+execute time: 13
+[2017-07-03 11:26:41.021][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-07-03 11:26:41.032][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 1.53 seconds (JVM running for 2.093)
+[2017-07-03 11:26:41.032][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 11:26:40 CST 2017]; root of context hierarchy
+[2017-07-03 11:26:41.033][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-07-03 11:26:54.674][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on bogon with PID 69134 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-07-03 11:26:54.676][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-07-03 11:26:54.718][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 11:26:54 CST 2017]; root of context hierarchy
+[2017-07-03 11:26:55.466][INFO][TestInterfaceImpl][90][logId:] - class : com.littlersmall.example.TestInterfaceImpl, function name: fun
+in args: [], out args: null
+execute time: 12
+[2017-07-03 11:26:55.668][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-07-03 11:26:55.682][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 1.219 seconds (JVM running for 1.701)
+[2017-07-03 11:26:55.683][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 11:26:54 CST 2017]; root of context hierarchy
+[2017-07-03 11:26:55.685][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-07-03 14:32:06.367][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on bogon with PID 80600 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-07-03 14:32:06.369][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-07-03 14:32:06.432][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 14:32:06 CST 2017]; root of context hierarchy
+[2017-07-03 14:32:07.265][INFO][TestInterfaceImpl][67][logId:] - [class:com.littlersmall.example.TestInterfaceImpl, function:fun]
+[in args: [], [out args: null]
+ [execute time: 14]
+[2017-07-03 14:32:07.536][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-07-03 14:32:07.550][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 1.44 seconds (JVM running for 1.948)
+[2017-07-03 14:32:07.551][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 14:32:06 CST 2017]; root of context hierarchy
+[2017-07-03 14:32:07.553][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-07-03 14:34:06.506][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on bogon with PID 80729 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-07-03 14:34:06.508][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-07-03 14:34:06.551][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 14:34:06 CST 2017]; root of context hierarchy
+[2017-07-03 14:34:07.283][INFO][TestInterfaceImpl][67][logId:] - {class:com.littlersmall.example.TestInterfaceImpl, function:fun
+[in args: [], out args: null
+execute time: 12}
+[2017-07-03 14:34:07.489][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-07-03 14:34:07.502][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 1.237 seconds (JVM running for 1.705)
+[2017-07-03 14:34:07.503][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 14:34:06 CST 2017]; root of context hierarchy
+[2017-07-03 14:34:07.504][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-07-03 14:34:21.668][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on bogon with PID 80748 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-07-03 14:34:21.670][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-07-03 14:34:21.713][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 14:34:21 CST 2017]; root of context hierarchy
+[2017-07-03 14:34:22.440][INFO][TestInterfaceImpl][67][logId:] - {class:com.littlersmall.example.TestInterfaceImpl, function:fun
+in args: [], out args: null
+execute time: 14}
+[2017-07-03 14:34:22.652][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-07-03 14:34:22.669][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 1.212 seconds (JVM running for 1.667)
+[2017-07-03 14:34:22.670][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 14:34:21 CST 2017]; root of context hierarchy
+[2017-07-03 14:34:22.671][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-07-03 20:47:20.741][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on bogon with PID 4842 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-07-03 20:47:20.744][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-07-03 20:47:20.827][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 20:47:20 CST 2017]; root of context hierarchy
+[2017-07-03 20:47:21.683][INFO][TestInterface][67][logId:] - class:com.littlersmall.example.TestInterface, function:fun
+in args: [], out args: null
+execute time: 14
+[2017-07-03 20:47:21.909][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-07-03 20:47:21.927][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 1.473 seconds (JVM running for 2.032)
+[2017-07-03 20:47:21.928][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Mon Jul 03 20:47:20 CST 2017]; root of context hierarchy
+[2017-07-03 20:47:21.931][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown

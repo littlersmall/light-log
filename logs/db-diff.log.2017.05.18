@@ -1,0 +1,683 @@
+[2017-05-18 17:43:20.253][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 19520 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:43:20.258][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:43:20.312][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:43:20 CST 2017]; root of context hierarchy
+[2017-05-18 17:43:20.976][INFO][LogExample][82][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 14
+[2017-05-18 17:43:21.980][WARN][LogExample][85][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1004
+[2017-05-18 17:43:22.202][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-05-18 17:43:22.217][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 17.224 seconds (JVM running for 17.721)
+[2017-05-18 17:43:22.218][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:43:20 CST 2017]; root of context hierarchy
+[2017-05-18 17:43:22.220][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-05-18 17:44:03.671][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 19563 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:44:03.675][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:44:03.716][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:44:03 CST 2017]; root of context hierarchy
+[2017-05-18 17:44:04.301][INFO][LogExample][82][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 12
+[2017-05-18 17:44:05.302][WARN][LogExample][85][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1001
+[2017-05-18 17:44:05.507][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-05-18 17:44:05.521][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 17.058 seconds (JVM running for 17.511)
+[2017-05-18 17:44:05.522][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:44:03 CST 2017]; root of context hierarchy
+[2017-05-18 17:44:05.524][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
+[2017-05-18 17:44:55.001][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 19610 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:44:55.004][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:44:55.042][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:44:55 CST 2017]; root of context hierarchy
+[2017-05-18 17:44:55.583][INFO][LogExample][82][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 13
+[2017-05-18 17:44:56.587][WARN][LogExample][85][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1004
+[2017-05-18 17:44:56.590][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 17:44:56.597][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 17:44:56.601][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 17:50:51.544][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 19938 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:50:51.547][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:50:51.586][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:50:51 CST 2017]; root of context hierarchy
+[2017-05-18 17:50:52.131][INFO][LogExample][84][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 14
+[2017-05-18 17:50:53.133][WARN][LogExample][87][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1001
+[2017-05-18 17:50:53.136][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 17:50:53.143][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 17:50:53.147][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 17:52:31.748][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 20031 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:52:31.751][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:52:31.792][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:52:31 CST 2017]; root of context hierarchy
+[2017-05-18 17:52:32.373][INFO][LogExample][84][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 13
+[2017-05-18 17:52:33.377][WARN][LogExample][87][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1002
+[2017-05-18 17:52:33.379][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 17:52:33.386][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 17:52:33.390][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 17:54:14.140][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 20125 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:54:14.142][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:54:14.180][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:54:14 CST 2017]; root of context hierarchy
+[2017-05-18 17:54:14.718][INFO][LogExample][85][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 12
+[2017-05-18 17:54:15.722][WARN][LogExample][88][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1004
+[2017-05-18 17:54:15.725][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 17:54:15.732][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 17:54:15.735][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 17:58:10.936][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 20344 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:58:10.939][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:58:10.976][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:58:10 CST 2017]; root of context hierarchy
+[2017-05-18 17:58:11.545][INFO][LogExample][87][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 14
+[2017-05-18 17:58:12.551][WARN][LogExample][90][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1005
+[2017-05-18 17:58:12.553][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 17:58:12.559][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 17:58:12.563][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 17:59:27.771][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 20413 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 17:59:27.774][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 17:59:27.816][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 17:59:27 CST 2017]; root of context hierarchy
+[2017-05-18 17:59:28.412][INFO][LogExample][87][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 12
+[2017-05-18 17:59:29.416][WARN][LogExample][90][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1003
+[2017-05-18 17:59:29.419][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 17:59:29.426][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 17:59:29.430][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 18:00:32.804][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 20477 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 18:00:32.806][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 18:00:32.844][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:00:32 CST 2017]; root of context hierarchy
+[2017-05-18 18:00:33.386][INFO][LogExample][87][logId:] - class : com.littlersmall.example.LogExample, function name: argTest
+in args: [hello, world], out args: 1
+execute time: 14
+[2017-05-18 18:00:34.391][WARN][LogExample][90][logId:] - class : com.littlersmall.example.LogExample, function name: timeTest
+in args: [], out args: null
+execute time: 1005
+[2017-05-18 18:00:34.393][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-05-18 18:00:34.400][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 18:00:34.404][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 18:28:03.816][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 22002 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 18:28:03.820][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 18:28:03.865][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:28:03 CST 2017]; root of context hierarchy
+[2017-05-18 18:28:04.481][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-05-18 18:28:04.487][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 18:28:04.491][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy43.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 18:29:21.649][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 22078 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 18:29:21.653][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 18:29:21.692][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:29:21 CST 2017]; root of context hierarchy
+[2017-05-18 18:29:22.230][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: 0
+[2017-05-18 18:29:22.235][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 18:29:22.238][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy44.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 18:32:51.919][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 22275 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 18:32:51.923][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 18:32:51.971][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:32:51 CST 2017]; root of context hierarchy
+[2017-05-18 18:32:52.598][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 18:32:52.603][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 18:32:52.607][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy44.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 18:37:19.744][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 22525 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 18:37:19.748][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 18:37:19.795][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:37:19 CST 2017]; root of context hierarchy
+[2017-05-18 18:37:20.416][WARN][AnnotationConfigApplicationContext][550][logId:] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+[2017-05-18 18:37:20.421][INFO][AutoConfigurationReportLoggingInitializer][101][logId:] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2017-05-18 18:37:20.425][ERROR][SpringApplication][815][logId:] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'lightLogApplication': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.littlersmall.LightLogApplication.main(LightLogApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.lang.NullPointerException: null
+	at com.littlersmall.biz.LogAspect.doSurround(LogAspect.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy44.fun(Unknown Source)
+	at com.littlersmall.LightLogApplication.init(LightLogApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 common frames omitted
+[2017-05-18 18:41:49.085][INFO][LightLogApplication][48][logId:] - Starting LightLogApplication on littlersmalldeMacBook-Pro.local with PID 22777 (/Users/littlersmall/project/light-log/target/classes started by littlersmall in /Users/littlersmall/project/light-log)
+[2017-05-18 18:41:49.089][INFO][LightLogApplication][637][logId:] - No active profile set, falling back to default profiles: default
+[2017-05-18 18:41:49.135][INFO][AnnotationConfigApplicationContext][582][logId:] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:41:49 CST 2017]; root of context hierarchy
+[2017-05-18 18:41:49.776][INFO][TestInterfaceImpl][90][logId:] - class : com.littlersmall.example.TestInterfaceImpl, function name: fun
+in args: [], out args: null
+execute time: 13
+[2017-05-18 18:41:49.987][INFO][AnnotationMBeanExporter][431][logId:] - Registering beans for JMX exposure on startup
+[2017-05-18 18:41:50.000][INFO][LightLogApplication][57][logId:] - Started LightLogApplication in 16.167 seconds (JVM running for 16.652)
+[2017-05-18 18:41:50.001][INFO][AnnotationConfigApplicationContext][987][logId:] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c40b76e: startup date [Thu May 18 18:41:49 CST 2017]; root of context hierarchy
+[2017-05-18 18:41:50.002][INFO][AnnotationMBeanExporter][449][logId:] - Unregistering JMX-exposed beans on shutdown
